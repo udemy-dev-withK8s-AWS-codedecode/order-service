@@ -37,7 +37,7 @@ pipeline {
                 script {
                     def token = "squ_32789bcdadb6e4337e432d6cbc100c2a1a14fde5"
                     def sonarQubeUrl = "http://15.236.186.247:9000/api"
-                    def componentKey = "com.codeddecode:order"
+                    def componentKey = "com.codedecode:order"
                     def coverageThreshold = 80.0
 
                     def response = sh (
